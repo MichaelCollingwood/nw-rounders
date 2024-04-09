@@ -8,7 +8,7 @@ export default function Home() {
         Neighbourhood Watch Rounders
       </div>
       <div className="flex flex-col gap-2 px-10">
-        <Link href="/fines"><p>fines</p></Link>
+        Info info info
       </div>
     </main>
   );
