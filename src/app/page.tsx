@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,9 +7,8 @@ export default function Home() {
       <div className="p-24">
         Neighbourhood Watch Rounders
       </div>
-      <div className="flex flex-col gap-2 p-10">
-        <p>Yes</p>
-        <p>Sir</p>
+      <div className="flex flex-col gap-2 px-10">
+        <Link href="/fines"><p>fines</p></Link>
       </div>
     </main>
   );
