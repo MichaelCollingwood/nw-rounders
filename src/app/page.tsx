@@ -8,10 +8,10 @@ export default function Home() {
         Neighbourhood Watch Rounders
       </div>
         <div className="flex flex-row">
-            <Image src="/logo.png" alt="logo" height={100} width={100} />
+            <Image src="/logo.png" alt="logo" height={200} width={200} />
         </div>
         <div className="flex flex-col gap-2 px-10">
-          Info info info
+            The game of rounders dates back as far as 1744 where people literally started to hit a ball with a stick. Since then the game has evolved somewhat of which you can read more of in this article. For those of you familiar with Baseball then you will likely pick up the rules of rounders pretty comfortably and notice many similarities.
       </div>
     </main>
   );

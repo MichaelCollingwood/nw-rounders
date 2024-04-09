@@ -1,7 +1,6 @@
 export default function Page() {
     return (
         <div className="block-list p-10 gap-1">
-            <li>1</li>
             <li>Late to match £1</li>
             <li>No kit £1</li>
             <li>Dropped catch £1</li>
@@ -14,7 +13,7 @@ export default function Page() {
             <li>Thanks for coming £2</li>
 
 
-            <li>Fines limited to £5 per match</li>
+            <li className="mt-4">Fines limited to £5 per match</li>
             <li>Player of the match (to be voted for) immune from fines for that match day</li>
         </div>
     )
