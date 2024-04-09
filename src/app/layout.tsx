@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full py-5 align-middle justify-center flex flex-row">
+        <div className="w-full py-5 align-middle justify-around flex flex-row bg-amber-300">
           <Link href="/"><p>Home</p></Link>
           <Link href="/fines"><p>Fines</p></Link>
         </div>
